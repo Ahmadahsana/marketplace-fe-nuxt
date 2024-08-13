@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply rounded-md border border-slate-300 shadow-none;
+  transition: border-color 0.3s;
+}
+
+.btn-primary {
+  @apply text-white;
+}
+
+.body {
+  @apply bg-slate-50;
+}
